@@ -18,6 +18,10 @@ body {
     float: right;
     margin-right: 300px;
     margin-bottom: 100px;
+    background-color: #f4a833;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 #login>.mail,
@@ -42,7 +46,7 @@ hr {
 }
 
 
-/*ESTILOS PARA EL HTML "SESIÓN"*/
+/*ESTILOS PARA EL HTML "DASHBOARD*/
 
 #header {
     display: inline-block;
@@ -50,6 +54,7 @@ hr {
     padding: 10px;
     margin-left: 25%;
     font-size: 20px;
+    color: white;
 }
 
 #header>div {
@@ -96,6 +101,7 @@ hr {
     margin-left: 16px;
     margin-bottom: 10px;
 }
+
 #menu-dashboard>div>div {
     display: inline-block;
     padding-right: 8px;
@@ -106,10 +112,6 @@ hr {
     color: grey;
 }
 
-#cheks {
-    margin-top: 15px;
-}
-
 .display-block {
     display: block;
 }
@@ -118,11 +120,11 @@ hr {
     color: grey;
 }
 
-body > img {
-  width: 20%;
-  margin-left: 40%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+body>img {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -132,26 +134,22 @@ body > img {
     margin-left: 30%;
 }
 
-#menu-sedes>.sedes {
+#menu-sedes>.sedes-gen {
     background-color: white;
     padding: 10px;
-    margin-left: 30px;
-    text-align: center;
-    width: 60%;
-    border-radius: 5px;
-    margin-top: 10px;
+    margin: 0;
+    margin-right: 130px;
 }
 
-#menu-sedes>.sedes>p {
+#menu-sedes>.sedes-gen>ul>li {
     display: inline-block;
     margin: 0;
-    margin-left: 42px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
 }
 
-#menu-sedes>.sedes>p:hover {
+#menu-sedes>.sedes-gen>ul>li:hover {
     color: #f4a833;
     font-size: 20px;
 }
@@ -195,6 +193,11 @@ body > img {
     font-size: 10px;
 }
 
+#header>div>i {
+    padding: 10px;
+    margin-right: 10px;
+}
+
 .generacion-seleccionada {
     background-color: #f4a833;
     padding: 5px;
@@ -203,4 +206,15 @@ body > img {
 
 .sede-seleccionada {
     color: #f4a833;
+}
+
+.submenu-gen {
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    color: grey;
+}
+
+.submenu-gen>li {
+    margin-top: 10px;
 }
