@@ -96,6 +96,10 @@ hr {
     margin-left: 16px;
     margin-bottom: 10px;
 }
+#menu-dashboard>div>div {
+    display: inline-block;
+    padding-right: 8px;
+}
 
 #menu-dashboard>div>div>p {
     font-size: 16px;
@@ -112,6 +116,13 @@ hr {
 
 .color {
     color: grey;
+}
+
+body > img {
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 

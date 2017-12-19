@@ -5130,3 +5130,95 @@ var data = {
     }
   }
 };
+
+//Total de estudiantes por sede y generación
+console.log("aqp16-2",data.AQP["2016-2"].students);
+console.log("aqp17-1",data.AQP["2017-1"].students);
+
+console.log("mex17-1",data.CDMX["2017-1"].students);
+console.log("mex17-2",data.CDMX["2017-2"].students);
+
+console.log("lim16-2",data.LIM["2016-2"].students);
+console.log("lim17-1",data.LIM["2017-1"].students);
+console.log("lim17-2",data.LIM["2017-2"].students);
+
+console.log("san16-2",data.SCL["2016-2"].students);
+console.log("san17-1",data.SCL["2017-1"].students);
+console.log("san17-2",data.SCL["2017-2"].students);
+
+//Estudiantes inactivas
+var studentsAqp1 = data.AQP["2016-2"].students
+for (var i = 0; i < studentsAqp1.length; i++) {
+  if (studentsAqp1[i]["active"] == false){
+    console.log("Aqp1")
+  }
+}
+
+var studentsAqp2 = data.AQP["2017-1"].students
+for (var i = 0; i < studentsAqp2.length; i++) {
+  if (studentsAqp2[i]["active"] == false){
+    console.log("Aqp2")
+  }
+}
+
+var studentsCdmx1 = data.CDMX["2017-1"].students
+for (var i = 0; i < studentsCdmx1.length; i++) {
+  if (studentsCdmx1[i]["active"] == false){
+    console.log("Cdmx1")
+  }
+}
+
+var studentsCdmx2 = data.CDMX["2017-2"].students
+for (var i = 0; i < studentsCdmx2.length; i++) {
+  if (studentsCdmx2[i]["active"] == false){
+    console.log("Cdmx2")
+  }
+}
+
+var studentsLima1 = data.LIM["2016-2"].students
+for (var i = 0; i < studentsLima1.length; i++) {
+  if (studentsLima1[i]["active"] == false){
+    console.log("Lima1")
+  }
+}
+
+var studentsLima2 = data.LIM["2017-1"].students
+for (var i = 0; i < studentsLima2.length; i++) {
+  if (studentsLima2[i]["active"] == false){
+    console.log("Lima2")
+  }
+}
+
+var studentsLima3 = data.LIM["2017-2"].students
+for (var i = 0; i < studentsLima3.length; i++) {
+  if (studentsLima3[i]["active"] == false){
+    console.log("Lima3")
+  }
+}
+
+var studentsSan1 = data.SCL["2016-2"].students
+for (var i = 0; i < studentsSan1.length; i++) {
+  if (studentsSan1[i]["active"] == false){
+    console.log("San1")
+  }
+}
+
+var studentsSan2 = data.SCL["2017-1"].students
+for (var i = 0; i < studentsSan2.length; i++) {
+  if (studentsSan2[i]["active"] == false){
+    console.log("San2")
+  }
+}
+
+var studentsSan3 = data.SCL["2017-2"].students
+for (var i = 0; i < studentsSan3.length; i++) {
+  if (studentsSan3[i]["active"] == false){
+    console.log("San3")
+  }
+}
+
+//Estudiantes que superan el 70%
+
+var promAqp1 = data.AQP["2016-2"].students[i][j]
+//for (var i = 0; i < promAqp1.length; i++) {
+console.log(promAqp1)

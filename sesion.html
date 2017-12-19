@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
-    <link rel="stylesheet" href="css/main.css" </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
 
     <body>
-        <container>
+          <img src="assets/images/logo-Lab.png" alt="">
             <section id="header">
                 <div>
                     <p>Salón de Laboratoria</p>
@@ -16,17 +18,13 @@
                     <p><a href="estudiantes.html">Estudiantes</a></p>
                 </div>
                 <div>
-                    <p>Profesores</p>
-                </div>
-                <div>
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
             </section>
 
             <section id="dashboard">
-                <p>DASHBOARD</p>
                 <section id="menu-dashboard">
-                    <p>Estudiantes</p>
+                    <p>Dashboard</p>
                     <div>
                         <div>
                             <p> SEDES</p>
@@ -47,35 +45,20 @@
                                 <option value="17-2">2017 - 2</option>
                             </select>
                         </div>
-                        <div id="cheks">
-                            <p>DATOS</p>
-                            <div class="display-block"><input type="checkbox" name=i d=""><label>Inscripción</label></div>
-                            <div class="display-block"><input type="checkbox" name="" id=""><label>Logro</label></div>
-                            <div class="display-block"><input type="checkbox" name="" id=""><label>Puntuación promedio meta</label></div>
-                            <div class="display-block"><input type="checkbox" name="" id=""><label>Habilidades tecnológicas</label></div>
-                            <div class="display-block"><input type="checkbox" name="" id=""><label>Habilidades de la vida</label></div>
-                            <div class="display-block"><input type="checkbox" name="" id=""><label>Satisfacción de estudiantes</label></div>
-                        </div>
+
 
                     </div>
-                    <p>Profesores y Jedis</p>
-                    <div>
-                        <p class="color">DATOS</p>
-                        <div class="display-block"><input type="checkbox" name="" id=""><label>Satisfacción de profesores</label></div>
-                        <div class="display-block"><input type="checkbox" name="" id=""><label>Satisfacción de jedis masters</label></div>
-                    </div>
+
                 </section>
-
             </section>
 
             <section id="img-dashboard">
                 <div>
-                    <img src="assets/images/grafica-muestra.png" alt="">
+                    <!--<img src="assets/images/grafica-muestra.png" alt="">-->
+                    <div id="piechart" style="width: 900px; height: 500px;"></div>
                     <!--Aquí van las gráficas-->
                 </div>
             </section>
-
-        </container>
     </body>
 
 </html>
