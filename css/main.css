@@ -1,6 +1,6 @@
 body {
-    background-color: #dcdada;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 #logo-title>img {
@@ -49,10 +49,8 @@ hr {
 /*ESTILOS PARA EL HTML "DASHBOARD*/
 
 #header {
-    display: inline-block;
     background-color: #f4a833;
     padding: 10px;
-    margin-left: 25%;
     font-size: 20px;
     color: white;
 }
@@ -122,7 +120,6 @@ hr {
 
 body>img {
     width: 20%;
-    margin-left: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -131,22 +128,22 @@ body>img {
 /*ESTILOS PARA HTML "ESTUDIANTES"*/
 
 #menu-sedes {
-    margin-left: 30%;
+    margin-left: 9%;
 }
 
 #menu-sedes>.sedes-gen {
-    background-color: white;
+    background-color: #00000014;
     padding: 10px;
-    margin: 0;
     margin-right: 130px;
+    text-align: center;
 }
 
 #menu-sedes>.sedes-gen>ul>li {
     display: inline-block;
-    margin: 0;
-    border-radius: 5px;
-    text-align: center;
+    color: #6f6c6c;
     cursor: pointer;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 #menu-sedes>.sedes-gen>ul>li:hover {
@@ -209,12 +206,24 @@ body>img {
 }
 
 .submenu-gen {
-    display: block;
     list-style: none;
     font-size: 15px;
     color: grey;
+    /*display: none;*/
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .submenu-gen>li {
     margin-top: 10px;
+}
+
+.fa {
+    margin-right: 20px;
 }
