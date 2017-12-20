@@ -145,7 +145,7 @@ function showMenu() {
 }
 
 // Función para acceder a los datos desde el submenú
-function hola() {
+function toAcces() {
     console.log(event.target);
     var target = event.target;
     var sede = target.dataset.sede;
@@ -156,7 +156,7 @@ function hola() {
 }
 
 //SECCIÓN ESTUDIANTES
-//Eventos para mostrar los perfiles de las estudiantes
+//Funciones para mostrar los perfiles de las estudiantes
 var wrapperAre1602 = document.getElementById('are1602');
 wrapperAre1602.onclick = function() {
     informationStudentArequipa1.style.display = "none";
