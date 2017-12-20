@@ -207,6 +207,66 @@ body>img {
     margin-right: 10px;
 }
 
+#are1602:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#are1601:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#cdmx1701:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#cdmx1702:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#lim1602:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#lim1701:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#lim1702:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#scl1602:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#scl1701:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+#scl1702:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
 .generacion-seleccionada {
     background-color: #f4a833;
     padding: 5px;
