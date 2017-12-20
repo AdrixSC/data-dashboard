@@ -160,46 +160,34 @@ body>img {
     cursor: pointer;
 }
 
-#informationStudent {
-    display: none;
-}
-
-.information-dash {
-    display: none;
-}
-
-.information-student {
+#information-student {
     text-align: center;
-    margin: 0 auto;
-    max-width: 1000px;
-    overflow: hidden;
-    margin-top: 42px;
-    display: none;
+    margin-left: 15%;
 }
 
-.information-student>.item {
-    float: left;
-    width: 50%;
+#information-student>div {
+    display: inline-block;
+    margin-right: 116px;
+    margin-top: 50px;
 }
 
-.information-student>.item>img {
-    width: 200px;
-    height: 200px;
-    margin: 15px;
+#information-student>div>div {
+    background-color: white;
+    width: 384px;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
-.information-student>.item>.textItem {
+#information-student>div>div>p {
+    margin: 0px;
+    display: inline;
     padding: 10px;
-    background-color: #f3efea;
-    border-radius: 4px;
-    border: 1px solid #ece7e2;
-    width: 60%;
-    margin: 0 auto;
+    color: grey;
 }
 
-.information-student>.item>.textItem>span {
-    color: #6f6c6c;
-    font-size: 14px;
+#information-student>div>div>p>p {
+    font-size: 10px;
 }
 
 #header>div>i {
@@ -234,7 +222,6 @@ body>img {
 
 .submenu-gen>li {
     margin-top: 10px;
-    cursor: pointer;
 }
 
 .fa {
