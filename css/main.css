@@ -297,6 +297,17 @@ body>img {
     cursor: pointer;
 }
 
+.submenu-gen>li:hover {
+    background-color: #f4a833;
+    padding: 5px;
+    color: white;
+}
+
+.margin-left {
+  margin-left: 15%;
+  width: 60%;
+}
+
 .fa {
     margin-right: 20px;
 }
