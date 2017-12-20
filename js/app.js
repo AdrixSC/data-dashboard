@@ -155,63 +155,6 @@ function hola() {
     console.log(data[sede]);
 }
 
-//SECCIÓN DASHBOARD
-// Funciones para mostrar el dashboard por generación
-//intento 1
-/*var showDash = document.getElementsById("are1602");
-//for (var i = 0; i < showDash.length; i++) {
-showDash.addEventListener("click", showImg)
-    //}
-
-function showImg() {
-    var dashAqp1 = this.getElementsByClassName("aqp-dash-1");
-    console.log(dashAqp1);
-
-    if (dashAqp1.classList.contains("hide")) {
-        dashAqp1.classList.remove("hide");
-        dashAqp1.classList.add("show");
-        console.log("dashAqp1");
-    } else {
-        dashAqp1.classList.remove("show);
-        dashAqp1.classList.add("hide");
-        console.log(dashAqp1);
-    }
-}*/
-
-//intento 2
-/*function myFunctionDash1() {
-    var x = document.getElementById("d1").innerHTML;
-    document.getElementById("d1").innerHTML = '<img src="assets/images/AQP_2016-2.jpg"></img>';
-    if (x.classList.contains("hide")) {
-        x.classList.remove("hide");
-        x.classList.add("show")
-    } else {
-        x.classList.remove("show");
-        x.classList.add("hide");
-    }
-}
-
-function myFunctionDash2() {
-    var x = document.getElementById("d2").innerHTML;
-    document.getElementById("d2").innerHTML = '<img src="assets/images/AQP_2017-1.jpg"></img>';
-}*/
-
-//intento 3
-/*var drawDashScl1702 = document.getElementById('scl1702');
-drawDashScl1702.onclick = function() {
-    scl172.style.display = "block";
-    aqp162.style.display = "none";
-    /*informationStudentScl.style.display = "none";
-    informationStudentLim2.style.display = "none";
-    informationStudentLim1.style.display = "none";
-    informationStudentLim.style.display = "none";
-    informationStudentCdmx2.style.display = "none";
-    informationStudentCdmx.style.display = "none";
-    informationStudentArequipa1.style.display = "none";
-    informationStudentArequipa.style.display = "none";
-}*/
-
-
 //SECCIÓN ESTUDIANTES
 //Eventos para mostrar los perfiles de las estudiantes
 var wrapperAre1602 = document.getElementById('are1602');
@@ -350,4 +293,135 @@ wrapperScl1702.onclick = function() {
     informationStudentCdmx.style.display = "none";
     informationStudentArequipa1.style.display = "none";
     informationStudentArequipa.style.display = "none";
+}
+
+//SECCIÓN DASHBOARD
+// Funciones para mostrar el dashboard por generación
+function dashA2() {
+    document.getElementById('dashA2').style.display = 'block';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashA1() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'block';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashCdm1() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'block';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashCdm2() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'block';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashlim2() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'block';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashlim171() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'block';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashlim172() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'block';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashSan2() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'block';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashSan171() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'block';
+    document.getElementById('dashSan172').style.display = 'none';
+}
+
+function dashSan172() {
+    document.getElementById('dashA2').style.display = 'none';
+    document.getElementById('dashA1').style.display = 'none';
+    document.getElementById('dashCdm1').style.display = 'none';
+    document.getElementById('dashCdm2').style.display = 'none';
+    document.getElementById('dashlim2').style.display = 'none';
+    document.getElementById('dashlim171').style.display = 'none';
+    document.getElementById('dashlim172').style.display = 'none';
+    document.getElementById('dashSan2').style.display = 'none';
+    document.getElementById('dashSan171').style.display = 'none';
+    document.getElementById('dashSan172').style.display = 'block';
 }
